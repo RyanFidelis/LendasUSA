@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Folclore Norte-Americano | Lendas Urbanas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <h1>Wiki Folclore Norte-Americano</h1>
+                <button id="language-toggle" class="language-toggle">
+                    <img src="imagens/brasil.jpeg" alt="Português" id="language-flag">
+                    <span id="language-text">PT</span>
+                </button>
+            </div>
+            <p class="subtitle">Explore as lendas e histórias que moldaram a cultura americana</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#lendas">Lendas</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contato">Contato</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="introducao" class="section">
+            <div class="container">
+                <h2>Introdução ao Folclore Norte-Americano</h2>
+                <div class="intro-text">
+                    <p>O folclore norte-americano é um rico mosaico de histórias, lendas e tradições que refletem a diversidade cultural e histórica dos Estados Unidos. Desde os contos nativos americanos até as lendas urbanas modernas, essas narrativas capturam medos, esperanças e valores da sociedade americana ao longo do tempo.</p>
+                    <p>Este wiki reúne algumas das lendas mais fascinantes e persistentes que continuam a capturar a imaginação popular, explorando suas origens, variações e impacto na cultura contemporânea.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lendas" class="section">
+            <div class="container">
+                <h2>Lendas e Histórias</h2>
+                <div class="legends-grid">
+                    <!-- Lendas (cards) -->
+                    <div class="legend-card" data-legend-id="0">
+                        <img src="imagens/pé-grande.png" alt="Pé Grande" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Pé Grande (Bigfoot)</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Noroeste do Pacífico</span>
+                                <span class="legend-era">Século XX</span>
+                            </div>
+                            <p class="legend-description">Uma criatura humanóide coberta de pelos que supostamente habita florestas remotas.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="legend-card" data-legend-id="1">
+                        <img src="imagens/Chupacabra.png" alt="Chupa-cabra" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Chupa-cabra</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Américas</span>
+                                <span class="legend-era">Década de 1990</span>
+                            </div>
+                            <p class="legend-description">Criatura lendária que ataca animais drenando seu sangue.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="legend-card" data-legend-id="2">
+                        <img src="imagens/homem-mariposa.png" alt="Mothman" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Mothman (Homem-Mariposa)</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Virgínia Ocidental</span>
+                                <span class="legend-era">Década de 1960</span>
+                            </div>
+                            <p class="legend-description">Criatura alada com olhos vermelhos, famosa em Point Pleasant.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="legend-card" data-legend-id="3">
+                        <img src="imagens/Jersey-devil.jpg" alt="Jersey Devil" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Jersey Devil</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Nova Jersey</span>
+                                <span class="legend-era">Século XVIII</span>
+                            </div>
+                            <p class="legend-description">Criatura lendária com asas de morcego e cabeça de cabra.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="legend-card" data-legend-id="4">
+                        <img src="imagens/wendigo.webp" alt="Wendigo" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Wendigo</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Florestas do Norte</span>
+                                <span class="legend-era">Lenda Nativa Americana</span>
+                            </div>
+                            <p class="legend-description">Criatura mitológica associada ao canibalismo e ganância.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="legend-card" data-legend-id="5">
+                        <img src="imagens/bloody-mary.webp" alt="Bloody Mary" class="legend-image">
+                        <div class="legend-content">
+                            <h3>Bloody Mary</h3>
+                            <div class="legend-meta">
+                                <span class="legend-region">Nacional</span>
+                                <span class="legend-era">Lenda Urbana</span>
+                            </div>
+                            <p class="legend-description">Espírito invocado diante do espelho repetindo seu nome.</p>
+                            <button class="view-details">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias" class="section">
+            <div class="container">
+                <h2>Categorias de Lendas</h2>
+                <div class="categories">
+                    <div class="category">
+                        <i class="fas fa-ghost"></i>
+                        <h3>Criaturas Míticas</h3>
+                        <p>Seres sobrenaturais e criaturas lendárias</p>
+                    </div>
+                    <div class="category">
+                        <i class="fas fa-city"></i>
+                        <h3>Lendas Urbanas</h3>
+                        <p>Histórias modernas transmitidas oralmente</p>
+                    </div>
+                    <div class="category">
+                        <i class="fas fa-mountain"></i>
+                        <h3>Folclore Regional</h3>
+                        <p>Lendas específicas de determinadas áreas</p>
+                    </div>
+                    <div class="category">
+                        <i class="fas fa-history"></i>
+                        <h3>Histórias Históricas</h3>
+                        <p>Narrativas baseadas em eventos reais</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quiz" class="section">
+            <div class="container">
+              <h2>Quiz Folclórico</h2>
+              <p class="intro-text">Teste seus conhecimentos sobre as lendas norte-americanas!</p>
+              <div id="quiz-container" class="quiz-container">
+                <div id="quiz-question"></div>
+                <div id="quiz-options"></div>
+                <button id="next-question" class="quiz-button">Próxima</button>
+                <p id="quiz-result"></p>
+              </div>
+            </div>
+          </section>
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <p class="intro-text">Caso conheça ou saiba de alguma nova lenda e tenha provas, entre em contato!</p>
+                <form>
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Seu Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+    <div class="legend-details" id="legend-modal">
+        <div class="details-content">
+            <button class="close-details"><i class="fas fa-times"></i></button>
+            <img id="modal-image" src="" alt="" class="modal-image">
+            <h3 id="modal-title"></h3>
+            <div class="legend-meta-details">
+                <span id="modal-region"></span>
+                <span id="modal-era"></span>
+            </div>
+            <div class="legend-full-description" id="modal-description"></div>
+            <div class="legend-characteristics">
+                <h4>Características:</h4>
+                <ul class="characteristics-list" id="modal-characteristics"></ul>
+            </div>
+            <div class="legend-variations">
+                <h4>Variações da Lenda:</h4>
+                <p id="modal-variations"></p>
+            </div>
+            <div class="legend-links">
+                <a href="#" class="legend-link" id="modal-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Saiba Mais
+                </a>
+            </div>
+        </div>
+    </div>      
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Wiki Folclore Norte-Americano. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
