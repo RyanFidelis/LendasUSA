@@ -438,7 +438,6 @@ footer {
 }
 
 
-/* ===== Responsividade ===== */
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.4rem;
@@ -453,7 +452,7 @@ footer {
   }
 
   nav a {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     padding: 5px 8px;
   }
 }
@@ -488,7 +487,7 @@ footer {
   }
 }
 
-/* ===== Para telas muito pequenas (até 350px) ===== */
+
 @media (max-width: 350px) {
   header h1 {
     font-size: 1.1rem;
@@ -507,12 +506,8 @@ footer {
   }
 
   nav a {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     padding: 3px 5px;
   }
 }
-
-
-
-
 
